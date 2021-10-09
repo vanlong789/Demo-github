@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.1/respond.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="./css/balo.css">
+        <link rel="stylesheet" href="./css/balobase.css">
+        <link rel="stylesheet" href="./css/gird.css">
+        <link rel="stylesheet" href="./css/responsive.css">
+        <link rel="stylesheet" href="./icon/fontawesome-free-5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="apps">
+            <header class="hearder">
+                <div class="hearder-top" id="hearder">
+                    <div class="grid wide">
+                     <div class="hearder-notifi">
+                         <ul class="hearder-top__list">
+                             <li class="hearder-top__list-call">
+                                 <i class="hearder-top-icon fas fa-phone-alt"></i>
+                                 0906 03 5225 - 090609 5225 
+                             </li>
+                         </ul>
+                         <ul class="hearder-top__list hide-on-mobile-tablet">
+                             <li class="hearder-top__list-li">
+                                <a href="" class="hearder-top__list-link">
+                                 <i class="hearder-top-icon fab fa-facebook"></i>
+                                </a>
+                             </li>
+                             <li class="hearder-top__list-li">
+                                 <a href="" class="hearder-top__list-link">                    
+                                  <i class="hearder-top-icon fab fa-instagram"></i>
+                                 </a>
+                              </li>
+                              <li class="hearder-top__list-li">
+                                 <a href="" class="hearder-top__list-link">
+                                  <i class="hearder-top-icon fab fa-twitter"></i>
+                                 </a>
+                              </li>
+                              <li class="hearder-top__list-li">
+                                 <a href="" class="hearder-top__list-link">
+                                  <i class="hearder-top-icon fas fa-envelope"></i>
+                                 </a>
+                              </li>
+                         </ul>
+                        </div>
+                    </div>
+                </div>
+                 <div class="hearder-navbar">
+                    <div class="grid wide">
+                        <div class="hearder-seach">
+                            <div class="hearder-seach__icon js-menu__icon">
+                                <i class="hearder-seach__icon-bar fas fa-bars"></i>
+                            </div>
+                            <div class="hearder-seach__logo">
+                                <a href="" class="hearder-seach__logo-link">
+                                    <img src="http://balo.giaodienwebmau.com/wp-content/uploads/2021/06/logo.png" alt="" class="hearder-seach__logo-img">
+                                </a>
+                            </div>
+                           <div class="hearder-seach__search hide-on-mobile-tablet">
+                               <input type="text" class="hearder-seach__search-input hearder-seach__search-hover" placeholder="Tìm kiếm...">
+                               <button class="header-seach__search-icon">
+                                    <i class="header-seach__search-icon-icon fas fa-search"></i>
+                               </button>
+                               <!-- gợi ý -->
+                               <div class="hearder-sugges">
+                                <ul class="hearder-sugges__cart">
+                                    <li class="hearder-sugges__cart-list">
+                                        <a href="" class="hearder-sugges__cart-link">
+                                         Túi Xách
+                                        </a>
+                                    </li>
+                                    <li class="hearder-sugges__cart-list">
+                                        <a href="" class="hearder-sugges__cart-link">
+                                         Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                           </div> 
+                           <div class="hearder-seach__login">
+                               <ul class="hearder-seach__login-list">
+                                   <li id="login" class="hearder-seach__login-li js-hearder-seach hide-on-mobile-tablet">
+                                       <a href="#" class="hearder-seach__login-link">
+                                           Đăng Nhập / Đăng Ký
+                                       </a>
+                                   </li>
+                                   <!-- <li class="hearder-seach__login-li hearder-user">
+                                    <a href="" class="hearder-user__link">
+                                        <img src="./imger/qrcode.png" alt="" class="hearder-user__img">
+                                        <span class="hearder-user__login">Nguyễn Lịch</span>
+                                    </a>
+                                    </li> -->
+                                   <li class="hearder-seach__login-li hearder-seach__login-shoping">
+                                        <a href="" class="hearder-seach__login-link hide-on-mobile-tablet">
+                                            Giỏ Hàng / <span>15.500.000đ</span>                                          
+                                        </a>
+                                        <div class="hearder-seach__login-link-cart">
+                                            <i class="hearder-seach__login-cart fas fa-shopping-cart"></i>
+                                            <span class="hearder-seach__login-pay hearder-seach__login-pay-cart">8</span>
+                                        </div>
+                                        <div class="hearder-shoping hearder-cart">
+                                            <!-- khi chưa có sản phẩm -->
+                                           <div class="hearder-sizeM">
+                                                <p class="hearder-shoping__not hearder-shoping__none">
+                                                     Chưa có sản phẩm trong giỏ <br> hàng.
+                                                </p>
+                                           </div>
+                                            <!-- khi đã có sản phẩm -->
+                                            <div class="hearder-shop">
+                                                <ul class="hearder-shop__list">
+                                                    <li class="hearder-shop__li">
+                                                            <a href="" class="hearder-shop__notifi-link">
+                                                                <img src="./imger/balo1.jpg" alt="" class="hearder-shop__img">
+                                                            </a>
+                                                            <div class="hearder-shop__notifi">
+                                                                <p class="hearder-shop__notifi-item"> 
+                                                                    <a href="" class="hearder-shop__notifi-link">
+                                                                        Túi Xách Siêu Nhân Gao Đỏ gap xanh gao vàng
+                                                                    </a>
+                                                                </p>
+                                                                <div class="hearder-shop__mini">
+                                                                    <span class="hearder-shop__mini-span">1 x</span>
+                                                                    <span class="hearder-shop__mini-money">1.500.000₫</span>
+                                                                </div>
+                                                            </div>
+                                                             <i class="hearder-shop__li-icon fas fa-times"></i>
+                                                    </li>
+                                                    <li class="hearder-shop__li">
+                                                        <a href="" class="hearder-shop__notifi-link">
+                                                            <img src="./imger/balo2.jpg" alt="" class="hearder-shop__img">
+                                                        </a>
+                                                        <div class="hearder-shop__notifi">
+                                                            <p class="hearder-shop__notifi-item"> 
+                                                                <a href="" class="hearder-shop__notifi-link">                                                             
+                                                                    Túi Xách Cartinoe MIVIDA088 Starry 12
+                                                                </a>
+                                                            </p>
+                                                            <div class="hearder-shop__mini">
+                                                                <span class="hearder-shop__mini-span">1 x</span>
+                                                                <span class="hearder-shop__mini-money">2.500.000₫</span>
+                                                            </div>
+                                                        </div>
+                                                         <i class="hearder-shop__li-icon fas fa-times"></i>
+                                                    </li>
+                                                    <li class="hearder-shop__li">
+                                                        <a href="" class="hearder-shop__notifi-link">
+                                                            <img src="./imger/balo1.jpg" alt="" class="hearder-shop__img">
+                                                        </a>
+                                                        <div class="hearder-shop__notifi">
+                                                            <p class="hearder-shop__notifi-item"> 
+                                                                <a href="" class="hearder-shop__notifi-link">
+                                                                    Túi Xách Siêu Nhân Gao Đỏ gap xanh gao vàng
+                                                                </a>
+                                                            </p>
+                                                            <div class="hearder-shop__mini">
+                                                                <span class="hearder-shop__mini-span">1 x</span>
+                                                                <span class="hearder-shop__mini-money">1.500.000₫</span>
+                                                            </div>
+                                                        </div>
+                                                         <i class="hearder-shop__li-icon fas fa-times"></i>
+                                                    </li>
+                                                    <li class="hearder-shop__li">
+                                                    <a href="" class="hearder-shop__notifi-link">
+                                                        <img src="./imger/balo2.jpg" alt="" class="hearder-shop__img">
+                                                    </a>
+                                                    <div class="hearder-shop__notifi">
+                                                        <p class="hearder-shop__notifi-item"> 
+                                                            <a href="" class="hearder-shop__notifi-link">                                                             
+                                                                Túi Xách Cartinoe MIVIDA088 Starry 12
+                                                            </a>
+                                                        </p>
+                                                        <div class="hearder-shop__mini">
+                                                            <span class="hearder-shop__mini-span">1 x</span>
+                                                            <span class="hearder-shop__mini-money">2.500.000₫</span>
+                                                        </div>
+                                                    </div>
+                                                     <i class="hearder-shop__li-icon fas fa-times"></i>
+                                                    </li>
+                                                    <li class="hearder-shop__li">
+                                                    <a href="" class="hearder-shop__notifi-link">
+                                                        <img src="./imger/balo1.jpg" alt="" class="hearder-shop__img">
+                                                    </a>
+                                                    <div class="hearder-shop__notifi">
+                                                        <p class="hearder-shop__notifi-item"> 
+                                                            <a href="" class="hearder-shop__notifi-link">
+                                                                Túi Xách Siêu Nhân Gao Đỏ gap xanh gao vàng
+                                                            </a>
+                                                        </p>
+                                                        <div class="hearder-shop__mini">
+                                                            <span class="hearder-shop__mini-span">1 x</span>
+                                                            <span class="hearder-shop__mini-money">1.500.000₫</span>
+                                                        </div>
+                                                    </div>
+                                                     <i class="hearder-shop__li-icon fas fa-times"></i>
+                                                    </li>
+                                                    <li class="hearder-shop__li">
+                                                <a href="" class="hearder-shop__notifi-link">
+                                                    <img src="./imger/balo2.jpg" alt="" class="hearder-shop__img">
+                                                </a>
+                                                <div class="hearder-shop__notifi">
+                                                    <p class="hearder-shop__notifi-item"> 
+                                                        <a href="" class="hearder-shop__notifi-link">                                                             
+                                                            Túi Xách Cartinoe MIVIDA088 Starry 12
+                                                        </a>
+                                                    </p>
+                                                    <div class="hearder-shop__mini">
+                                                        <span class="hearder-shop__mini-span">1 x</span>
+                                                        <span class="hearder-shop__mini-money">2.500.000₫</span>
+                                                    </div>
+                                                </div>
+                                                 <i class="hearder-shop__li-icon fas fa-times"></i>
+                                                    </li>
+                                                    <li class="hearder-shop__li">
+                                                <a href="" class="hearder-shop__notifi-link">
+                                                    <img src="./imger/balo1.jpg" alt="" class="hearder-shop__img">
+                                                </a>
+                                                <div class="hearder-shop__notifi">
+                                                    <p class="hearder-shop__notifi-item"> 
+                                                        <a href="" class="hearder-shop__notifi-link">
+                                                            Túi Xách Siêu Nhân Gao Đỏ gap xanh gao vàng
+                                                        </a>
+                                                    </p>
+                                                    <div class="hearder-shop__mini">
+                                                        <span class="hearder-shop__mini-span">1 x</span>
+                                                        <span class="hearder-shop__mini-money">1.500.000₫</span>
+                                                    </div>
+                                                </div>
+                                                 <i class="hearder-shop__li-icon fas fa-times"></i>
+                                                    </li>
+                                                    <li class="hearder-shop__li">
+                                            <a href="" class="hearder-shop__notifi-link">
+                                                <img src="./imger/balo2.jpg" alt="" class="hearder-shop__img">
+                                            </a>
+                                            <div class="hearder-shop__notifi">
+                                                <p class="hearder-shop__notifi-item"> 
+                                                    <a href="" class="hearder-shop__notifi-link">                                                             
+                                                        Túi Xách Cartinoe MIVIDA088 Starry 12
+                                                    </a>
+                                                </p>
+                                                <div class="hearder-shop__mini">
+                                                    <span class="hearder-shop__mini-span">1 x</span>
+                                                    <span class="hearder-shop__mini-money">2.500.000₫</span>
+                                                </div>
+                                            </div>
+                                             <i class="hearder-shop__li-icon fas fa-times"></i>
+                                                    </li>
+                                                </ul>
+                                                <div class="hearder-shop__sumoney">
+                                                    <span class="hearder-shop__sumoney-noti">Tổng số tiền:</span>
+                                                    <span class="hearder-shop__sumoney-money">15.500.000đ</span>
+                                                </div>
+                                                <div class="hearder-shop__box">
+                                                    <bottom class="btn btn--blue hearder-shop__box-bottom">
+                                                        <a href="" class="hearder-shop__box-link">Xem giỏ hàng</a>
+                                                    </bottom>
+                                                    <bottom class="btn btn--green hearder-shop__box-bottom">
+                                                        <a href="" class="hearder-shop__box-pay">Thanh toán</a>
+                                                    </bottom>
+                                                </div>
+                                            </div>
+                                       </div>
+                                    </li>
+                               </ul>
+                           </div>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="hearder-footer hide-on-mobile-tablet">
+                    <div class="grid wide">
+                        <div class="hearder-from">
+                            <ul class="hearder-footer__list">
+                                <li class="hearder-footer__link ">
+                                    <a href="" class="hearder-footer__href hearder-footer__black">
+                                        Trang chủ
+                                    </a>
+                                </li>
+                                <li class="hearder-footer__link hearder-footer__link-href">
+                                    <a href="" class="hearder-footer__href">
+                                        Sản phẩm
+                                        <i class="hearder-footer__href-icon fas fa-angle-down"></i>
+                                    </a>
+                                    <div class="hearder-footer__sugget">
+                                        <ul class="hearder-footer__sugget-list">
+                                            <a href="" class="hearder-footer__sugget-link">
+                                                <li class="hearder-footer__sugget-li">Túi Xách</li>
+                                            </a>
+                                            <a href="" class="hearder-footer__sugget-link">
+                                                <li class="hearder-footer__sugget-li">Balo</li>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="hearder-footer__link">
+                                    <a href="" class="hearder-footer__href">
+                                        Balo
+                                    </a>
+                                </li>
+                                <li class="hearder-footer__link">
+                                    <a href="" class="hearder-footer__href">
+                                        Phụ kiện
+                                    </a>
+                                </li>
+                                <li class="hearder-footer__link">
+                                    <a href="" class="hearder-footer__href">
+                                        Túi xách
+                                    </a>
+                                </li>
+                                <li class="hearder-footer__link">
+                                    <a href="" class="hearder-footer__href">
+                                        Vali
+                                    </a>
+                                </li>
+                                <li class="hearder-footer__link">
+                                    <a href="" class="hearder-footer__href">
+                                        Tin tức
+                                    </a>
+                                </li>
+                                <li class="hearder-footer__link">
+                                    <a href="" class="hearder-footer__href">
+                                        Liên hệ
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                 </div>
+                <!-- <div class="hearder-footer__top">
+                    <a href="#hearder" class="hearder-footer__top-link">
+                     <i class="hearder-footer__top-icon fas fa-angle-down"></i>
+                    </a>
+                </div> -->
+            </header>
+            <div class="container">
+                <!-- làm slide -->
+                <div class="container-slideshow">
+                    <div class="container-slide">
+                        <input type="radio" name="bottom" id="bottom_1">
+                        <input type="radio" name="bottom" id="bottom_2">
+                        <div class="container-slide__list container-slide__id">
+                            <div class="container-slide__list-img"></div>
+                        </div>
+                        <div class="container-slide__list">
+                            <div class="container-slide__list-img"></div>
+                        </div>
+                    </div>
+                    <div class="container-navigation">
+                        <label for="bottom_1" class="container-navigation__bar"></label>
+                        <label for="bottom_2" class="container-navigation__bar"></label>
+                    </div>
+                </div>
+                <div class="container-menu">
+                    <div class="grid wide">
+                        <div class="container-sale">
+                            <sapn class="container-sale__notifi">Flash sale !!!!</sapn>
+                            <img src="./imger/flash_sale.jpg" alt="" class="container-sale__img">
+                        </div>
+                        <div class="row sm-gutter">
+                            <div class="col l-2-4 m-4 c-6 container-shoping__culum">
+                               <a href="" class="container-home__fb">
+                                <div class="container-shoping">
+                                    <div class="container-shoping__img">
+                                        <img src="./imger/balo3.jpg" alt="" class="container-shoping__img-image">
+                                        <div class="container-shoping__sale">
+                                            <span class="container-shoping__sale-noti">
+                                                -11%
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="container-shoping__content">
+                                        <span class="container-shoping__content-span">
+                                            Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                        </span>
+                                    </div>
+                                    <div class="container-shoping__money">
+                                        <span class="container-shoping__money-no">540.000₫</span>
+                                        <span class="container-shoping__money-line">480.000₫</span>
+                                    </div>
+                                </div>
+                               </a>
+                            </div>
+                            <div class="col l-2-4 m-4 c-6 container-shoping__culum">
+                                <a href="" class="container-home__fb">
+                                 <div class="container-shoping">
+                                     <div class="container-shoping__img">
+                                         <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                         <div class="container-shoping__sale">
+                                             <span class="container-shoping__sale-noti">
+                                                 -11%
+                                             </span>
+                                         </div>
+                                     </div>
+                                     <div class="container-shoping__content">
+                                         <span class="container-shoping__content-span">
+                                             Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                         </span>
+                                     </div>
+                                     <div class="container-shoping__money">
+                                         <span class="container-shoping__money-no">540.000₫</span>
+                                         <span class="container-shoping__money-line">480.000₫</span>
+                                     </div>
+                                 </div>
+                                </a>
+                             </div>
+                             <div class="col l-2-4 m-4 c-6 container-shoping__culum">
+                                <a href="" class="container-home__fb">
+                                 <div class="container-shoping">
+                                     <div class="container-shoping__img">
+                                         <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                         <div class="container-shoping__sale">
+                                             <span class="container-shoping__sale-noti">
+                                                 -11%
+                                             </span>
+                                         </div>
+                                     </div>
+                                     <div class="container-shoping__content">
+                                         <span class="container-shoping__content-span">
+                                             Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                         </span>
+                                     </div>
+                                     <div class="container-shoping__money">
+                                         <span class="container-shoping__money-no">540.000₫</span>
+                                         <span class="container-shoping__money-line">480.000₫</span>
+                                     </div>
+                                 </div>
+                                </a>
+                             </div>
+                             <div class="col l-2-4 m-4 c-6 container-shoping__culum">
+                                <a href="" class="container-home__fb">
+                                 <div class="container-shoping">
+                                     <div class="container-shoping__img">
+                                         <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                         <div class="container-shoping__sale">
+                                             <span class="container-shoping__sale-noti">
+                                                 -11%
+                                             </span>
+                                         </div>
+                                     </div>
+                                     <div class="container-shoping__content">
+                                         <span class="container-shoping__content-span">
+                                             Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                         </span>
+                                     </div>
+                                     <div class="container-shoping__money">
+                                         <span class="container-shoping__money-no">540.000₫</span>
+                                         <span class="container-shoping__money-line">480.000₫</span>
+                                     </div>
+                                 </div>
+                                </a>
+                             </div>
+                             <div class="col l-2-4 m-4 c-6 container-shoping__culum">
+                                <a href="" class="container-home__fb">
+                                 <div class="container-shoping">
+                                     <div class="container-shoping__img">
+                                         <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                         <div class="container-shoping__sale">
+                                             <span class="container-shoping__sale-noti">
+                                                 -11%
+                                             </span>
+                                         </div>
+                                     </div>
+                                     <div class="container-shoping__content">
+                                         <span class="container-shoping__content-span">
+                                             Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                         </span>
+                                     </div>
+                                     <div class="container-shoping__money">
+                                         <span class="container-shoping__money-no">540.000₫</span>
+                                         <span class="container-shoping__money-line">480.000₫</span>
+                                     </div>
+                                 </div>
+                                </a>
+                             </div>
+                        </div>
+                        <div class="row sm-gutter">
+                            <div class="col l-4 m-4 c-0 container-shoping__culum">
+                                <div class="container-banner">
+                                    <img src="./imger/bannar1.jpg" alt="" class="container-banner__img">
+                                </div>
+                            </div>
+                            <div class="col l-4 m-4 c-12 container-shoping__culum">
+                                <div class="container-banner__imger">
+                                    <img src="./imger/banner2.jpg" alt="" class="container-banner__img-culumn">
+                                    <img src="./imger/banner3.jpg" alt="" class="container-banner__img-culumn">
+                                </div>
+                            </div>
+                            <div class="col l-4 m-4 c-0 container-shoping__culum">
+                                <div class="container-banner">
+                                    <img src="./imger/banner4.jpg" alt="" class="container-banner__img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-sale__shop">
+                            <sapn class="container-sale__span">Bán chạy nhất</sapn>
+                            <div class="container-sale__shop-notifi">
+                                <sapn class="container-sale__shop-span">Balo</sapn>
+                                <sapn class="container-sale__shop-span">Vali</sapn>
+                            </div>
+                        </div>
+                        <div class="row sm-gutter">
+                            <div class="col l-3 m-3 c-12">
+                                <a href="" class="container-home__fb">
+                                    <div class="container-shoping container-shoping__culum">
+                                        <div class="container-shoping__img container-shoping__img-none">
+                                            <img src="./imger/balo3.jpg" alt="" class="container-shoping__img-image container-shoping__img-transtion">
+                                            <div class="container-shoping__sale">
+                                                <span class="container-shoping__sale-noti">
+                                                    -11%
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="container-shoping__content">
+                                            <span class="container-shoping__content-span">
+                                                Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                            </span>
+                                        </div>
+                                        <div class="container-shoping__money">
+                                            <span class="container-shoping__money-no">540.000₫</span>
+                                            <span class="container-shoping__money-line">480.000₫</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="container-banner__imger">
+                                    <img src="./imger/banner2.jpg" alt="" class="container-banner__img-culumn">
+                                </div>
+                            </div>
+                            <div class="col l-9 m-9 c-12">
+                                <div class="row sm-gutter">
+                                    <div class="col l-3 m-4 c-6 container-shoping__culum-75">
+                                        <a href="" class="container-home__fb">
+                                            <div class="container-shoping">
+                                                <div class="container-shoping__img">
+                                                    <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                                    <div class="container-shoping__sale">
+                                                        <span class="container-shoping__sale-noti">
+                                                            -11%
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="container-shoping__content">
+                                                    <span class="container-shoping__content-span">
+                                                        Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                    </span>
+                                                </div>
+                                                <div class="container-shoping__money">
+                                                    <span class="container-shoping__money-no">540.000₫</span>
+                                                    <span class="container-shoping__money-line">480.000₫</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-4 c-6 container-shoping__culum-75">
+                                        <a href="" class="container-home__fb">
+                                            <div class="container-shoping">
+                                                <div class="container-shoping__img">
+                                                    <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                                    <div class="container-shoping__sale">
+                                                        <span class="container-shoping__sale-noti">
+                                                            -11%
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="container-shoping__content">
+                                                    <span class="container-shoping__content-span">
+                                                        Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                    </span>
+                                                </div>
+                                                <div class="container-shoping__money">
+                                                    <span class="container-shoping__money-no">540.000₫</span>
+                                                    <span class="container-shoping__money-line">480.000₫</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-4 c-6 container-shoping__culum-75">
+                                        <a href="" class="container-home__fb">
+                                            <div class="container-shoping">
+                                                <div class="container-shoping__img">
+                                                    <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                                    <div class="container-shoping__sale">
+                                                        <span class="container-shoping__sale-noti">
+                                                            -11%
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="container-shoping__content">
+                                                    <span class="container-shoping__content-span">
+                                                        Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                    </span>
+                                                </div>
+                                                <div class="container-shoping__money">
+                                                    <span class="container-shoping__money-no">540.000₫</span>
+                                                    <span class="container-shoping__money-line">480.000₫</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-4 c-6 container-shoping__culum-75">
+                                        <a href="" class="container-home__fb">
+                                            <div class="container-shoping">
+                                                <div class="container-shoping__img">
+                                                    <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                                    <div class="container-shoping__sale">
+                                                        <span class="container-shoping__sale-noti">
+                                                            -11%
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="container-shoping__content">
+                                                    <span class="container-shoping__content-span">
+                                                        Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                    </span>
+                                                </div>
+                                                <div class="container-shoping__money">
+                                                    <span class="container-shoping__money-no">540.000₫</span>
+                                                    <span class="container-shoping__money-line">480.000₫</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-4 c-6 container-shoping__culum-75">
+                                        <a href="" class="container-home__fb">
+                                            <div class="container-shoping">
+                                                <div class="container-shoping__img">
+                                                    <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                                    <div class="container-shoping__sale">
+                                                        <span class="container-shoping__sale-noti">
+                                                            -11%
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="container-shoping__content">
+                                                    <span class="container-shoping__content-span">
+                                                        Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                    </span>
+                                                </div>
+                                                <div class="container-shoping__money">
+                                                    <span class="container-shoping__money-no">540.000₫</span>
+                                                    <span class="container-shoping__money-line">480.000₫</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-4 c-6 container-shoping__culum-75">
+                                        <a href="" class="container-home__fb">
+                                            <div class="container-shoping">
+                                                <div class="container-shoping__img">
+                                                    <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                                    <div class="container-shoping__sale">
+                                                        <span class="container-shoping__sale-noti">
+                                                            -11%
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="container-shoping__content">
+                                                    <span class="container-shoping__content-span">
+                                                        Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                    </span>
+                                                </div>
+                                                <div class="container-shoping__money">
+                                                    <span class="container-shoping__money-no">540.000₫</span>
+                                                    <span class="container-shoping__money-line">480.000₫</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-4 c-6 container-shoping__culum-75">
+                                        <a href="" class="container-home__fb">
+                                            <div class="container-shoping">
+                                                <div class="container-shoping__img">
+                                                    <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                                    <div class="container-shoping__sale">
+                                                        <span class="container-shoping__sale-noti">
+                                                            -11%
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="container-shoping__content">
+                                                    <span class="container-shoping__content-span">
+                                                        Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                    </span>
+                                                </div>
+                                                <div class="container-shoping__money">
+                                                    <span class="container-shoping__money-no">540.000₫</span>
+                                                    <span class="container-shoping__money-line">480.000₫</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-3 m-4 c-6 container-shoping__culum-75">
+                                        <a href="" class="container-home__fb">
+                                            <div class="container-shoping">
+                                                <div class="container-shoping__img">
+                                                    <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                                    <div class="container-shoping__sale">
+                                                        <span class="container-shoping__sale-noti">
+                                                            -11%
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="container-shoping__content">
+                                                    <span class="container-shoping__content-span">
+                                                        Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                    </span>
+                                                </div>
+                                                <div class="container-shoping__money">
+                                                    <span class="container-shoping__money-no">540.000₫</span>
+                                                    <span class="container-shoping__money-line">480.000₫</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-voter">
+                    <div class="container-voter__img">
+                        <div class="container-voter__contai">
+                            <div class="grid wide">
+                                <div class="container-voter__contai-noti container-sale__shop">
+                                    <sapn class="container-sale__span container-voter__contai-span container-voter__contai-none">Sản Phẩm Nổi Bật</sapn>
+                                    <div class="container-sale__shop-notifi container-voter__contai-none">
+                                        <sapn class="container-sale__shop-span container-voter__contai-name">Balo</sapn>
+                                        <sapn class="container-sale__shop-span container-voter__contai-name">Vali</sapn>
+                                    </div>
+                                </div>
+                                <div class="row sm-gutter">
+                                    <div class="col l-3 m-3 c-12 container-shoping__culum">
+                                        <img src="./imger/anh2.jpg" alt="" class="container-voter__discount">
+                                    </div>
+                                    <div class="col l-9 m-9 c-12 container-shoping__culum-75">
+                                      <div class="row sm-gutter">
+                                        <div class="col l-4 m-6 c-6 container-shoping__culum-75">
+                                            <a href="#" class="container-home__fb">
+                                                <div class="container-shoping container-discount__flex">
+                                                    <div class="container-shoping__img container-voter__discount-three">
+                                                        <img src="./imger/balo1.jpg" alt="" class="container-voter__discount-img">
+                                                        <div class="container-shoping__sale container-discount__boder">
+                                                            <span class="container-shoping__sale-noti">
+                                                                -11%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="container-discount__display container-voter__discount-six">
+                                                        <div class="container-discount__text">
+                                                            <span class="container-shoping__content-span container-discount__text-span">
+                                                                Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                            </span>
+                                                        </div>
+                                                        <div class="container-shoping__money container-discount__text-culum">
+                                                            <span class="container-shoping__money-no ontainer-discount__text-right">540.000₫</span>
+                                                            <span class="container-shoping__money-line">480.000₫</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col l-4 m-6 c-6 container-shoping__culum-75">
+                                            <a href="#" class="container-home__fb">
+                                                <div class="container-shoping container-discount__flex">
+                                                    <div class="container-shoping__img container-voter__discount-three">
+                                                        <img src="./imger/balo1.jpg" alt="" class="container-voter__discount-img">
+                                                        <div class="container-shoping__sale container-discount__boder">
+                                                            <span class="container-shoping__sale-noti">
+                                                                -11%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="container-discount__display container-voter__discount-six">
+                                                        <div class="container-discount__text">
+                                                            <span class="container-shoping__content-span container-discount__text-span">
+                                                                Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                            </span>
+                                                        </div>
+                                                        <div class="container-shoping__money container-discount__text-culum">
+                                                            <span class="container-shoping__money-no ontainer-discount__text-right">540.000₫</span>
+                                                            <span class="container-shoping__money-line">480.000₫</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col l-4 m-6 c-6 container-shoping__culum-75">
+                                            <a href="#" class="container-home__fb">
+                                                <div class="container-shoping container-discount__flex">
+                                                    <div class="container-shoping__img container-voter__discount-three">
+                                                        <img src="./imger/balo1.jpg" alt="" class="container-voter__discount-img">
+                                                        <div class="container-shoping__sale container-discount__boder">
+                                                            <span class="container-shoping__sale-noti">
+                                                                -11%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="container-discount__display container-voter__discount-six">
+                                                        <div class="container-discount__text">
+                                                            <span class="container-shoping__content-span container-discount__text-span">
+                                                                Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                            </span>
+                                                        </div>
+                                                        <div class="container-shoping__money container-discount__text-culum">
+                                                            <span class="container-shoping__money-no ontainer-discount__text-right">540.000₫</span>
+                                                            <span class="container-shoping__money-line">480.000₫</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col l-4 m-6 c-6 container-shoping__culum-75">
+                                            <a href="#" class="container-home__fb">
+                                                <div class="container-shoping container-discount__flex">
+                                                    <div class="container-shoping__img container-voter__discount-three">
+                                                        <img src="./imger/balo1.jpg" alt="" class="container-voter__discount-img">
+                                                        <div class="container-shoping__sale container-discount__boder">
+                                                            <span class="container-shoping__sale-noti">
+                                                                -11%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="container-discount__display container-voter__discount-six">
+                                                        <div class="container-discount__text">
+                                                            <span class="container-shoping__content-span container-discount__text-span">
+                                                                Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                            </span>
+                                                        </div>
+                                                        <div class="container-shoping__money container-discount__text-culum">
+                                                            <span class="container-shoping__money-no ontainer-discount__text-right">540.000₫</span>
+                                                            <span class="container-shoping__money-line">480.000₫</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col l-4 m-6 c-6 container-shoping__culum-75">
+                                            <a href="#" class="container-home__fb">
+                                                <div class="container-shoping container-discount__flex">
+                                                    <div class="container-shoping__img container-voter__discount-three">
+                                                        <img src="./imger/balo1.jpg" alt="" class="container-voter__discount-img">
+                                                        <div class="container-shoping__sale container-discount__boder">
+                                                            <span class="container-shoping__sale-noti">
+                                                                -11%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="container-discount__display container-voter__discount-six">
+                                                        <div class="container-discount__text">
+                                                            <span class="container-shoping__content-span container-discount__text-span">
+                                                                Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                            </span>
+                                                        </div>
+                                                        <div class="container-shoping__money container-discount__text-culum">
+                                                            <span class="container-shoping__money-no ontainer-discount__text-right">540.000₫</span>
+                                                            <span class="container-shoping__money-line">480.000₫</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col l-4 m-6 c-6 container-shoping__culum-75">
+                                            <a href="#" class="container-home__fb">
+                                                <div class="container-shoping container-discount__flex">
+                                                    <div class="container-shoping__img container-voter__discount-three">
+                                                        <img src="./imger/balo1.jpg" alt="" class="container-voter__discount-img">
+                                                        <div class="container-shoping__sale container-discount__boder">
+                                                            <span class="container-shoping__sale-noti">
+                                                                -11%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="container-discount__display container-voter__discount-six">
+                                                        <div class="container-discount__text">
+                                                            <span class="container-shoping__content-span container-discount__text-span">
+                                                                Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                            </span>
+                                                        </div>
+                                                        <div class="container-shoping__money container-discount__text-culum">
+                                                            <span class="container-shoping__money-no ontainer-discount__text-right">540.000₫</span>
+                                                            <span class="container-shoping__money-line">480.000₫</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col l-4 m-6 c-6 container-shoping__culum-75">
+                                            <a href="#" class="container-home__fb">
+                                                <div class="container-shoping container-discount__flex">
+                                                    <div class="container-shoping__img container-voter__discount-three">
+                                                        <img src="./imger/balo1.jpg" alt="" class="container-voter__discount-img">
+                                                        <div class="container-shoping__sale container-discount__boder">
+                                                            <span class="container-shoping__sale-noti">
+                                                                -11%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="container-discount__display container-voter__discount-six">
+                                                        <div class="container-discount__text">
+                                                            <span class="container-shoping__content-span container-discount__text-span">
+                                                                Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                            </span>
+                                                        </div>
+                                                        <div class="container-shoping__money container-discount__text-culum">
+                                                            <span class="container-shoping__money-no ontainer-discount__text-right">540.000₫</span>
+                                                            <span class="container-shoping__money-line">480.000₫</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col l-4 m-6 c-6 container-shoping__culum-75">
+                                            <a href="#" class="container-home__fb">
+                                                <div class="container-shoping container-discount__flex">
+                                                    <div class="container-shoping__img container-voter__discount-three">
+                                                        <img src="./imger/balo1.jpg" alt="" class="container-voter__discount-img">
+                                                        <div class="container-shoping__sale container-discount__boder">
+                                                            <span class="container-shoping__sale-noti">
+                                                                -11%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="container-discount__display container-voter__discount-six">
+                                                        <div class="container-discount__text">
+                                                            <span class="container-shoping__content-span container-discount__text-span">
+                                                                Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                            </span>
+                                                        </div>
+                                                        <div class="container-shoping__money container-discount__text-culum">
+                                                            <span class="container-shoping__money-no ontainer-discount__text-right">540.000₫</span>
+                                                            <span class="container-shoping__money-line">480.000₫</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col l-4 m-6 c-6 container-shoping__culum-75">
+                                            <a href="#" class="container-home__fb">
+                                                <div class="container-shoping container-discount__flex">
+                                                    <div class="container-shoping__img container-voter__discount-three">
+                                                        <img src="./imger/balo1.jpg" alt="" class="container-voter__discount-img">
+                                                        <div class="container-shoping__sale container-discount__boder">
+                                                            <span class="container-shoping__sale-noti">
+                                                                -11%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="container-discount__display container-voter__discount-six">
+                                                        <div class="container-discount__text">
+                                                            <span class="container-shoping__content-span container-discount__text-span">
+                                                                Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                                            </span>
+                                                        </div>
+                                                        <div class="container-shoping__money container-discount__text-culum">
+                                                            <span class="container-shoping__money-no ontainer-discount__text-right">540.000₫</span>
+                                                            <span class="container-shoping__money-line">480.000₫</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid wide">
+                       <div class="container-section">
+                            <div class="container-sale__shop">
+                            <sapn class="container-sale__span">Vali</sapn>
+                            <div class="container-sale__shop-notifi">
+                                <sapn class="container-sale__shop-span">Balo</sapn>
+                                <sapn class="container-sale__shop-span">Vali</sapn>
+                            </div>
+                            </div>
+                            <div class="row sm-gutter">
+                                <div class="col l-2-4 m-4 c-6 container-shoping__culum">
+                               <a href="" class="container-home__fb">
+                                <div class="container-shoping">
+                                    <div class="container-shoping__img">
+                                        <img src="./imger/balo3.jpg" alt="" class="container-shoping__img-image">
+                                        <div class="container-shoping__sale">
+                                            <span class="container-shoping__sale-noti">
+                                                -11%
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="container-shoping__content">
+                                        <span class="container-shoping__content-span">
+                                            Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                        </span>
+                                    </div>
+                                    <div class="container-shoping__money">
+                                        <span class="container-shoping__money-no">540.000₫</span>
+                                        <span class="container-shoping__money-line">480.000₫</span>
+                                    </div>
+                                </div>
+                               </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 container-shoping__culum">
+                                <a href="" class="container-home__fb">
+                                 <div class="container-shoping">
+                                     <div class="container-shoping__img">
+                                         <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                         <div class="container-shoping__sale">
+                                             <span class="container-shoping__sale-noti">
+                                                 -11%
+                                             </span>
+                                         </div>
+                                     </div>
+                                     <div class="container-shoping__content">
+                                         <span class="container-shoping__content-span">
+                                             Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                         </span>
+                                     </div>
+                                     <div class="container-shoping__money">
+                                         <span class="container-shoping__money-no">540.000₫</span>
+                                         <span class="container-shoping__money-line">480.000₫</span>
+                                     </div>
+                                 </div>
+                                </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 container-shoping__culum">
+                                <a href="" class="container-home__fb">
+                                 <div class="container-shoping">
+                                     <div class="container-shoping__img">
+                                         <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                         <div class="container-shoping__sale">
+                                             <span class="container-shoping__sale-noti">
+                                                 -11%
+                                             </span>
+                                         </div>
+                                     </div>
+                                     <div class="container-shoping__content">
+                                         <span class="container-shoping__content-span">
+                                             Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                         </span>
+                                     </div>
+                                     <div class="container-shoping__money">
+                                         <span class="container-shoping__money-no">540.000₫</span>
+                                         <span class="container-shoping__money-line">480.000₫</span>
+                                     </div>
+                                 </div>
+                                </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 container-shoping__culum">
+                                <a href="" class="container-home__fb">
+                                 <div class="container-shoping">
+                                     <div class="container-shoping__img">
+                                         <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                         <div class="container-shoping__sale">
+                                             <span class="container-shoping__sale-noti">
+                                                 -11%
+                                             </span>
+                                         </div>
+                                     </div>
+                                     <div class="container-shoping__content">
+                                         <span class="container-shoping__content-span">
+                                             Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                         </span>
+                                     </div>
+                                     <div class="container-shoping__money">
+                                         <span class="container-shoping__money-no">540.000₫</span>
+                                         <span class="container-shoping__money-line">480.000₫</span>
+                                     </div>
+                                 </div>
+                                </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 container-shoping__culum">
+                                <a href="" class="container-home__fb">
+                                 <div class="container-shoping">
+                                     <div class="container-shoping__img">
+                                         <img src="./imger/balo1.jpg" alt="" class="container-shoping__img-image">
+                                         <div class="container-shoping__sale">
+                                             <span class="container-shoping__sale-noti">
+                                                 -11%
+                                             </span>
+                                         </div>
+                                     </div>
+                                     <div class="container-shoping__content">
+                                         <span class="container-shoping__content-span">
+                                             Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                         </span>
+                                     </div>
+                                     <div class="container-shoping__money">
+                                         <span class="container-shoping__money-no">540.000₫</span>
+                                         <span class="container-shoping__money-line">480.000₫</span>
+                                     </div>
+                                 </div>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="row sm-gutter">
+                                <div class="col l-6 m-6 c-12">
+                                     <img src="./imger/anh3.jpg" alt="" class="container-section__img">
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <img src="./imger/anh4.jpg" alt="" class="container-section__img">
+                               </div>
+                            </div>
+                            <div class="container-section__bloger">
+                                <h2 class="container-section__bloger-h2">Blog</h2>
+                            </div>
+                            <div class="container-section__slideshow hide-on-mobile-tablet">
+                                <div class="container-slideshow container-section__slideshow-show">
+                                    <div class="container-slide container-section__slideshow-slide">
+                                        <input type="radio" name="bottom" id="bottom_3">
+                                        <input type="radio" name="bottom" id="bottom_4">
+                                        <div class="container-slide__list container-slide__id" id="item_1">
+                                            <div class="row sm-gutter">
+                                                    <div class="col l-3 m-12 c-12 container-shoping__culum-slide">
+                                                        <a href="" class="container-home__fb">
+                                                            <div class="container-section__conner">
+                                                                <img src="./imger/anh5.jpg" alt="" class="container-section__conner-img">
+                                                                <span class="container-section__coner-span">
+                                                                    Phân biệt tai nghe treo và tai nghe nhét tai khó hay dễ ?
+                                                                </span>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col l-3 m-12 c-12 container-shoping__culum-slide">
+                                                        <a href="" class="container-home__fb">
+                                                            <div class="container-section__conner">
+                                                                <img src="./imger/anh7.jpg" alt="" class="container-section__conner-img">
+                                                                <span class="container-section__coner-span">
+                                                                    3 MẪU TÚI ĐA NĂNG HOÀN HẢO CHO MỌI CHUYẾN DU LỊCH, CÔNG TÁC
+                                                                </span>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col l-3 m-12 c-12 container-shoping__culum-slide">
+                                                        <a href="" class="container-home__fb">
+                                                            <div class="container-section__conner">
+                                                                <img src="./imger/anh8.jpg" alt="" class="container-section__conner-img">
+                                                                <span class="container-section__coner-span">
+                                                                    Giá đỡ Macbook có thực sự cần thiết cho Macbook
+                                                                </span>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col l-3 m-12 c-12 container-shoping__culum-slide">
+                                                        <a href="" class="container-home__fb">
+                                                            <div class="container-section__conner">
+                                                                <img src="./imger/anh6.jpg" alt="" class="container-section__conner-img">
+                                                                <span class="container-section__coner-span">
+                                                                    CỔNG CHUYỂN CHO MACBOOK – “HIỆN ĐẠI” NHƯNG KHÔNG “HẠI ĐIỆN”
+                                                                </span>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-slide__list" id="item_2" >
+                                            <div class="row sm-gutter">
+                                                <div class="col l-3 m-12 c-12 container-shoping__culum-slide">
+                                                    <a href="" class="container-home__fb">
+                                                        <div class="container-section__conner">
+                                                            <img src="./imger/anh5.jpg" alt="" class="container-section__conner-img">
+                                                            <span class="container-section__coner-span">
+                                                                Phân biệt tai nghe treo và tai nghe nhét tai khó hay dễ ?
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col l-3 m-12 c-12 container-shoping__culum-slide">
+                                                    <a href="" class="container-home__fb">
+                                                        <div class="container-section__conner">
+                                                            <img src="./imger/anh1.jpg" alt="" class="container-section__conner-img">
+                                                            <span class="container-section__coner-span">
+                                                                3 MẪU TÚI ĐA NĂNG HOÀN HẢO CHO MỌI CHUYẾN DU LỊCH, CÔNG TÁC
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col l-3 m-12 c-12 container-shoping__culum-slide">
+                                                    <a href="" class="container-home__fb">
+                                                        <div class="container-section__conner">
+                                                            <img src="./imger/anh8.jpg" alt="" class="container-section__conner-img">
+                                                            <span class="container-section__coner-span">
+                                                                Giá đỡ Macbook có thực sự cần thiết cho Macbook
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col l-3 m-12 c-12 container-shoping__culum-slide">
+                                                    <a href="" class="container-home__fb">
+                                                        <div class="container-section__conner">
+                                                            <img src="./imger/anh6.jpg" alt="" class="container-section__conner-img">
+                                                            <span class="container-section__coner-span">
+                                                                CỔNG CHUYỂN CHO MACBOOK – “HIỆN ĐẠI” NHƯNG KHÔNG “HẠI ĐIỆN”
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                               </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-navigation container-section__slideshow-navgation">
+                                        <label for="bottom_3" class="container-navigation__bar"></label>
+                                        <label for="bottom_4" class="container-navigation__bar"></label>
+                                    </div>
+                                </div>
+                                <div class="container-section__slideshow-cab">
+                                   <div class="container-section__slideshow-div hide-on-mobile-tablet">
+                                    <a href="#item_1" class="container-section__slideshow-a">
+                                        <i class="fas fa-angle-left"></i>
+                                    </a>
+                                   </div>
+                                   <div class="container-section__slideshow-div hide-on-mobile-tablet">
+                                    <a href="#item_2" class="container-section__slideshow-a">
+                                        <i class="fas fa-angle-right"></i>
+                                    </a>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="container-section__slideshow hide-on-pc">
+                                <div class="container-slideshow-scroll container-section__slideshow-show">
+                                    <div class="container-slide__width container-section__slideshow-slide">
+                                        <input type="radio" name="bottom" id="bottom_5">
+                                        <input type="radio" name="bottom" id="bottom_6">
+                                        <input type="radio" name="bottom" id="bottom_7">
+                                        <input type="radio" name="bottom" id="bottom_8">
+                                        <div class="container-slide__list-width container-slide__id" id="id_1">
+                                            <div class="row sm-gutter">
+                                                    <div class="col l-12 m-12 c-12 container-shoping__culum-slide">
+                                                        <a href="" class="container-home__fb">
+                                                            <div class="container-section__conner">
+                                                                <img src="./imger/anh5.jpg" alt="" class="container-section__conner-img">
+                                                                <span class="container-section__coner-span">
+                                                                    Phân biệt tai nghe treo và tai nghe nhét tai khó hay dễ ?
+                                                                </span>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-slide__list-width" >
+                                            <div class="row sm-gutter">
+                                                <div class="col l-3 m-12 c-12 container-shoping__culum-slide">
+                                                    <a href="" class="container-home__fb">
+                                                        <div class="container-section__conner">
+                                                            <img src="./imger/anh6.jpg" alt="" class="container-section__conner-img">
+                                                            <span class="container-section__coner-span">
+                                                                CỔNG CHUYỂN CHO MACBOOK – “HIỆN ĐẠI” NHƯNG KHÔNG “HẠI ĐIỆN”
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-slide__list-width">
+                                            <div class="row sm-gutter">
+                                                    <div class="col l-12 m-12 c-12 container-shoping__culum-slide">
+                                                        <a href="" class="container-home__fb">
+                                                            <div class="container-section__conner">
+                                                                <img src="./imger/anh8.jpg" alt="" class="container-section__conner-img">
+                                                                <span class="container-section__coner-span">
+                                                                    Giá đỡ Macbook có thực sự cần thiết cho Macbook
+                                                                </span>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-slide__list-width">
+                                            <div class="row sm-gutter">
+                                                <div class="col l-3 m-12 c-12 container-shoping__culum-slide">
+                                                    <a href="" class="container-home__fb">
+                                                        <div class="container-section__conner">
+                                                            <img src="./imger/anh1.jpg" alt="" class="container-section__conner-img">
+                                                            <span class="container-section__coner-span">
+                                                                3 MẪU TÚI ĐA NĂNG HOÀN HẢO CHO MỌI CHUYẾN DU LỊCH, CÔNG TÁC
+                                                            </span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-navigation-width container-section__slideshow-navgation">
+                                        <label for="bottom_5" class="container-navigation__bar"></label>
+                                        <label for="bottom_6" class="container-navigation__bar"></label>
+                                        <label for="bottom_7" class="container-navigation__bar"></label>
+                                        <label for="bottom_8" class="container-navigation__bar"></label>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-hearder">
+                    <div class="grid wide">
+                        <div class="row sm-gutter">
+                            <div class="col l-3 m-12 c-12 container-shoping__culum-75">
+                                <div class="footer-hearder__list">
+                                    <p class="footer-hearder__span-p">
+                                        Macinsta.vn – Kênh mua sắm đồ công nghệ cao cấp
+                                    </p>
+                                    <p class="footer-hearder__span-p">
+                                        Địa chỉ: Ngõ 56 Hoàng Văn Thái, Hà Nội.
+                                    </p>
+                                    <span class="footer-hearder__span footer-hearder__span-h2">
+                                        Hotline 1: 0906035225
+                                    </span>
+                                    <span class="footer-hearder__span footer-hearder__span-h2">
+                                        CSKH: 0906095225
+                                    </span>
+                                    <p class="footer-hearder__span-p">
+                                        Copyright © 2016 Macinsta.vn
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-12 c-12 container-shoping__culum-75">
+                                <div class="footer-hearder__list">
+                                    <h2>HỖ TRỢ KHÁCH HÀNG</h2>
+                                    <span class="footer-hearder__span">
+                                       <a href="" class="footer-hearder__link">
+                                        Câu hỏi thường gặp (FAQ)
+                                       </a>
+                                    </span>
+                                    <span class="footer-hearder__span">
+                                        <a href="" class="footer-hearder__link">
+                                         Hướng dẫn mua hàng
+                                        </a>
+                                     </span>
+                                     <span class="footer-hearder__span">
+                                        <a href="" class="footer-hearder__link">
+                                           Chính sách giao hàng
+                                        </a>
+                                     </span>
+                                     <span class="footer-hearder__span">
+                                        <a href="" class="footer-hearder__link">
+                                            Chính sách bảo hành
+                                        </a>
+                                     </span>
+                                     <span class="footer-hearder__span">
+                                        <a href="" class="footer-hearder__link">
+                                            Điều khoản bảo mật
+                                        </a>
+                                     </span>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-12 c-12 container-shoping__culum-75">
+                                <div class="footer-hearder__list">
+                                    <p class="footer-hearder__list-noti">
+                                        (Phản hồi trong thời gian sớm nhất)
+                                    </p>
+                                    <h2>VỀ MACINSTA</h2>
+                                    <span class="footer-hearder__span">
+                                       <a href="" class="footer-hearder__link">
+                                        Giới thiệu về MacInsta
+                                       </a>
+                                    </span>
+                                    <span class="footer-hearder__span">
+                                        <a href="" class="footer-hearder__link">
+                                            Quy trình tư vấn
+                                        </a>
+                                     </span>
+                                     <span class="footer-hearder__span">
+                                        <a href="" class="footer-hearder__link">
+                                            Ưu đãi khách hàng thân thiết
+                                        </a>
+                                     </span>
+                                     <span class="footer-hearder__span">
+                                        <a href="" class="footer-hearder__link">
+                                            Sản phẩm ở MacInsta
+                                        </a>
+                                     </span>
+                                     <span class="footer-hearder__span">
+                                        <a href="" class="footer-hearder__link">
+                                            Vì sao chọn MacInsta?
+                                        </a>
+                                     </span>
+                                     <span class="footer-hearder__span">
+                                        <a href="" class="footer-hearder__link">
+                                            Tuyển dụng
+                                        </a>
+                                     </span>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-12 c-12 container-shoping__culum-75">
+                                <div class="footer-hearder__list">
+                                   <div class="footer-hearder__flex">
+                                       <a href="" class="footer-hearder__flex-link">
+                                        <i class="hearder-top-icon footer-hearder__flex-icon fab fa-facebook"></i>
+                                       </a>
+                                       <a href="" class="footer-hearder__flex-link">
+                                        <i class="hearder-top-icon footer-hearder__flex-icon fab fa-instagram"></i>
+                                       </a>
+                                       <a href="" class="footer-hearder__flex-link">
+                                        <i class="hearder-top-icon footer-hearder__flex-icon fab fa-twitter"></i>
+                                       </a>
+                                       <a href="" class="footer-hearder__flex-link">
+                                        <i class="hearder-top-icon footer-hearder__flex-icon fas fa-envelope"></i>
+                                       </a>
+                                       <a href="" class="footer-hearder__flex-link footer-hearder__flex-red">
+                                        <i class="hearder-top-icon footer-hearder__flex-icon fab fa-youtube"></i>
+                                       </a>
+                                   </div>
+                                   <p class="footer-hearder__span-p">
+                                        Được chứng nhận
+                                    </p>
+                                    <a href="" class="footer-hearder__flex-list-link">
+                                        <img src="./imger/anh7.png" alt="" class="footer-hearder__flex-list-img">
+                                    </a>
+                                    <p class="footer-hearder__span-p">
+                                        Cách thức thanh toán
+                                    </p>
+                                    <div class="footer-hearder__flex">
+                                        <a href="" class="footer-hearder__flex-link-pay">
+                                         <i class="hearder-top-icon footer-hearder__flex-icon-pay fab fa-cc-visa"></i>
+                                        </a>
+                                        <a href="" class="footer-hearder__flex-link-pay">
+                                         <i class="hearder-top-icon footer-hearder__flex-icon-pay fab fa-cc-paypal"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="footer-hearder__footer footer-hearder__span-p">         
+                             Copyright 2021 © | Giao diện web đẹp | Lịch CKT     
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal js-modal">
+                <div class="modal-over"></div>
+                <div class="modal__from">
+                   <form action="" class="modal-form" method="">
+                    <div class="modal-list js-modal-inner">
+                        <h1 class="modal-list__login">Đăng Nhập</h1>
+                        <div class="modal-list__user">
+                            <h2 class="modal-list__user-h2">Tên tài khoản hoặc địa chỉ email *</h2>
+                            <input type="text" class="modal-list__user-text">
+                        </div>
+                        <div class="modal-list__user">
+                            <h2 class="modal-list__user-h2">Mật khẩu *</h2>
+                            <input type="password" class="modal-list__user-text">
+                        </div>
+                        <div class="modal-list__rebme">
+                            <input type="checkbox" class="modal-list__rebme-text">
+                            <h2 class="modal-list__rebme-h2">Ghi nhớ mật khẩu *</h2>
+                        </div>
+                        <div class="modal-list__bottom">
+                            <button class="btn btn--blue modal-list__bottom-submit">Đăng Nhập</button>
+                            <a href="" class="modal-list__bottom-link">Quên mật khẩu ?</a>
+                        </div>
+                        <div class="modal-list__icon js-modal-list__icon">
+                            <i class="modal-list__icon-time fas fa-times"></i>
+                        </div>
+                    </div>
+                   </form>
+                </div>
+            </div>
+
+            <div class="hearder-from hearder-modal js-hearder-modal">
+                <div class="hearder-modal__over">
+                    <i class="hearder-modal__over-time fas fa-times js-icon__times"></i>
+                </div>
+                <ul class="hearder-footer__list hearder-footer__list-culumn hearder-modal-footer js-list__menu">
+                    <li class="hearder-footer__link hearder-footer__menu-seach">
+                        <div class="hearder-seach__search">
+                            <input type="text" class="hearder-seach__search-input hearder-seach__search-hover" placeholder="Tìm kiếm...">
+                            <button class="header-seach__search-icon">
+                                 <i class="header-seach__search-icon-icon fas fa-search"></i>
+                            </button>
+                            <!-- gợi ý -->
+                            <div class="hearder-sugges">
+                             <ul class="hearder-sugges__cart">
+                                 <li class="hearder-sugges__cart-list">
+                                     <a href="" class="hearder-sugges__cart-link hearder-sugges__cart-seach">
+                                      Túi Xách
+                                     </a>
+                                 </li>
+                                 <li class="hearder-sugges__cart-list">
+                                     <a href="" class="hearder-sugges__cart-link hearder-sugges__cart-seach">
+                                      Túi Xách Cartinoe MIVIDA1071 Lamando 15.6
+                                     </a>
+                                 </li>
+                             </ul>
+                         </div>
+                    </li>
+                    <li class="hearder-footer__link hearder-footer__menu ">
+                        <a href="" class="hearder-footer__href hearder-footer__black">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li class="hearder-footer__link hearder-footer__menu hearder-footer__link-href">
+                        <a href="#" class="hearder-footer__href hearder-footer__menu-prodct">
+                            Sản phẩm
+                            <i class="hearder-footer__href-icon fas fa-angle-down"></i>
+                        </a>
+                        <ul class="hearder-footer__sugget-list hearder-footer__menu-cart hearder-footer__menu-cart-product">
+                            <a href="" class="hearder-footer__sugget-link">
+                                <li class="hearder-footer__sugget-li">Túi Xách</li>
+                            </a>
+                            <a href="" class="hearder-footer__sugget-link">
+                                <li class="hearder-footer__sugget-li">Balo</li>
+                            </a>
+                        </ul>             
+                    </li>
+                    <li class="hearder-footer__link hearder-footer__menu">
+                        <a href="" class="hearder-footer__href">
+                            Balo
+                        </a>
+                    </li>
+                    <li class="hearder-footer__link hearder-footer__menu">
+                        <a href="" class="hearder-footer__href">
+                            Phụ kiện
+                        </a>
+                    </li>
+                    <li class="hearder-footer__link hearder-footer__menu">
+                        <a href="" class="hearder-footer__href">
+                            Túi xách
+                        </a>
+                    </li>
+                    <li class="hearder-footer__link hearder-footer__menu">
+                        <a href="" class="hearder-footer__href">
+                            Vali
+                        </a>
+                    </li>
+                    <li class="hearder-footer__link hearder-footer__menu">
+                        <a href="" class="hearder-footer__href">
+                            Tin tức
+                        </a>
+                    </li>
+                    <li class="hearder-footer__link hearder-footer__menu">
+                        <a href="" class="hearder-footer__href">
+                            Liên hệ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- javasprit -->
+        <script src="./Js/balo.js"></script>
+    </body>
+</html>

@@ -160,7 +160,6 @@ html
 }
 .container-shoping__img-image
 {
-    height: 100%;
     width: 100%;
 }
 .container-shoping__sale
@@ -231,6 +230,7 @@ html
 /*hiểu ứng transtion banner*/
 .container-shoping__img-transtion
 {
+    width: 100%;
     transition: transform 0.3s linear;
     will-change: transform;
 }
@@ -312,18 +312,31 @@ html
     width: 67.6667%;
 }
 
-
-@media(min-width:1024px)
-{
-    /* body{
-        display: inline-block;
-    } */
+/*tắt điều hướng trong input number*/
+.fix-number::-webkit-inner-spin-button,
+.fix-number::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
 }
-@media(min-width:704px) and (max-width:1023px)
-{
 
+/*làm tạo nút trở lại trang đầu*/
+.backtop{
+    width: 45px;
+    height: 45px;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    cursor: pointer;
 }
-@media(max-width:703px)
-{
-
+.backtop-icon{
+    margin: 0;
+    font-size: 1.5rem;
 }

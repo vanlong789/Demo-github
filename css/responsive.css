@@ -6,6 +6,10 @@
     .hide-on-pc{
         display: none;
     }
+    .container-discount__text-right
+    {
+        margin-right:10px;
+    }
 }
 /*mobile-tablet*/
 @media (max-width:1023px){
@@ -52,10 +56,52 @@
         padding-bottom: 10px;
     }
     .footer-hearder__flex-list-img{
-        width: 30%;
+        width: 40%;
     }
     .hide-on-mobile-tablet{
         display: none;
+    }
+   .container-folder .container-folder__header{
+       text-align: center;
+       padding-top: 15px;
+   } 
+   .container-info{
+       padding-top: 30px;
+   }
+   .container-wrapper{
+       flex-direction: column;
+   }
+   .container-wrapper__page {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .container-wrapper__category-none{
+        display: none;
+    }
+    /*fggfghg*/
+    .hearder-seach{
+        position: relative; 
+        padding-bottom: 30px;
+    }
+    .hearder-seach__search{
+        position: absolute;
+        top: 54px;
+        left: 14px;
+        right: 14px;
+    }
+    .header-seach__search-icon{
+        position: absolute;
+        top: 0;
+        right: 0px;
+        padding: 5px;
+        border-radius: 15px;
+        
+    }
+    .hearder-seach__search-input{
+        border-radius: 14px;
+    }
+    .container-slideshow{
+        margin-top: 8px;
     }
 }
 
@@ -73,8 +119,12 @@
         bottom: 1px;
     }
     .container-navigation__bar{
-        height: 12px;
-        width: 12px;
+        height: 8px;
+        width: 8px;
+    }
+    .container-discount__text-right
+    {
+        margin-right:10px;
     }
 }
 /*mobille*/
@@ -148,12 +198,52 @@
         bottom: 1px;
     }
     .container-navigation__bar{
-        height: 12px;
-        width: 12px;
+        height: 8px;
+        width: 8px;
     }
     .container-navigation{
         bottom: -1px;
         left: 42%;
+    }
+    .container-star__shop-money{
+        margin-top: 2px;
+    }
+    .container-run__content-span{
+        font-size: 0.8rem;
+        font-weight: 100;
+    }
+    .container-vali__content-span{
+        font-size: 0.8rem;
+        font-weight: 100;
+    }
+    /*fix rỏ hàng*/
+    .hearder-shoping{
+        right: -10px;
+    }
+    /*fix tính năng thông tin khách hàng*/
+    .container-client__flex{
+        display: block;
+    }
+    .container-client__flex-name:nth-child(1),
+    .container-client__flex-name:nth-child(2)
+    {
+        padding: 0;
+    }
+    /*fiex tính năng rõ hàng*/
+    .container-bank__table-sum{
+        text-align: right;
+        /* display: block; */
+    }
+    .container-bank__message{
+        padding-left: 5px;
+        margin-left: 5px;
+    }
+    .container-bank__btn{
+        flex-direction: column;
+    }
+    .container-bank__btn-link1{
+        margin: 0;
+        margin-bottom: 10px;
     }
 }
 @media (max-width:280px) {
@@ -162,8 +252,8 @@
         bottom: -1px;
     }
     .container-navigation__bar{
-        height: 10px;
-        width: 10px;
+        height: 8px;
+        width: 8px;
     }
     .container-navigation{
         bottom: -6px;

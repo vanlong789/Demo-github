@@ -349,7 +349,6 @@ html
     -webkit-line-clamp: 1;
     margin: 0;
     color: var(--blue-color);
-    margin-bottom: 5px;
 }
 .hearder-shop__notifi-item:hover
 {
@@ -486,7 +485,7 @@ html
 .hearder-seach__login-pay-cart
 {
     text-align: center;
-    line-height: 1.4;
+    line-height: 17px;
     border-radius: 50%;
     border: 1px solid rgba(0,0,0,0.05);
     font-size: 0.9rem;
@@ -496,6 +495,7 @@ html
 .hearder-footer
 {
     min-height: 43px;
+    border-bottom: 0.5px solid rgba(0,0,0,0.1);
 }
 .hearder-footer__list
 {
@@ -615,9 +615,9 @@ html
 
 .container-navigation__bar
 {
-    width: 10px;
-    height: 10px;
-    border: 2px solid var(--yellow-color);
+    width: 8px;
+    height: 8px;
+    border: 1px solid var(--white-color);
     border-radius: 50%;
     margin: 10px;
     cursor: pointer;
@@ -626,7 +626,7 @@ html
 .container-navigation__bar:hover{
 	background: #fff;
 	/* transition: 0.6s; */
-	border:2px solid red;
+	border:1px solid white;
 }
 
 
@@ -843,6 +843,59 @@ input[name="bottom"]{
 {
     width: 100%;
 }
+
+
+/*tiếp sản phẩm nổi bật*/
+.container-star{
+    text-decoration: none;
+}
+.container-star__shop-span{
+    font-size: 0.9rem;
+    color: var(--blue-text);
+    text-align: center;
+    display: block;
+    height: 32px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.container-star__shop-span:hover{
+    color: var(--yellow-color);
+}
+.container-star__shop-money{
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+.container-star__shop-money-no{
+    color: #9d9d9d;
+    text-decoration: line-through;
+    font-weight: 200;
+}
+.container-star__shop-img{
+    position: relative;
+}
+.container-star__shop-sale{
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    height: 36px;
+    width: 36px;
+    background-color: var(--yellow-color);
+    border-radius: 50%;
+}
+.container-star__shop-noti{
+    line-height: 36px;
+    font-size: 0.9rem;
+    color: var(--white-color);
+}
+
+
+
+
+
 /*làm flex cho shop hàng*/
 
 .container-discount__flex
@@ -850,6 +903,7 @@ input[name="bottom"]{
     display: flex;
     background-color: var(--white-color);
     border-radius: 4px;
+    align-items: center;
 }
 .container-discount__text
 {
@@ -862,14 +916,7 @@ input[name="bottom"]{
     text-align: center;
     
 }
-.container-discount__text-culum
-{
-    margin-top: 20px;
-}
-.container-discount__text-right
-{
-    margin-right:10px !important;
-}
+
 .container-voter__contai-none
 {
     border-bottom: none !important;
@@ -882,7 +929,9 @@ input[name="bottom"]{
 .container-section__img
 {
     width: 100%;
-    height: 100%;
+}
+.container-section__img-padding{
+    padding-bottom: 20px;
 }
 .container-section__bloger
 {
@@ -897,6 +946,172 @@ input[name="bottom"]{
     color: var(--text-color);
     margin: 0;
 }
+/*sản phẩm bán chạy*/
+.container-menu__shop
+{
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+.container-menu__shop-img
+{
+    position: relative;
+}
+.container-menu__shop-img-none
+{
+    overflow: hidden;
+}
+.container-menu__shop-img-image
+{
+    width: 100%;
+}
+.container-menu__shop-sale
+{
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--yellow-color);
+    border-radius: 50%;
+}
+.container-menu__shop-sale-noti
+{
+    display: block;
+    line-height: 2.6;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 100;
+    color: var(--white-color);
+}
+.container-menu__shop-content-span
+{
+    font-weight: 100;
+    font-size: 0.9rem;
+    color: var(--blue-text);
+    text-align: center;
+    display: block;
+}
+.container-menu__shop-content-span:hover
+{
+    color: var(--yellow-color);
+}
+.container-menu__shop-money
+{
+    display: flex;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+    margin-top: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.container-menu__shop-money-no
+{
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-decoration: line-through;
+    color: #9d9d9d;
+    margin-right: 4px;
+}
+.container-menu__shop-money-line
+{
+    font-size: 1rem;
+    font-weight: 550;
+    color: var(--text-color);
+}
+
+/*hiểu ứng transtion banner*/
+.container-menu__shop-img-transtion
+{
+    width: 100%;
+    transition: transform 0.3s linear;
+    will-change: transform;
+}
+.container-menu__shop-img-transtion:hover
+{
+    transform: scale(1.075);
+}
+
+/*tiếp theo sản phẩm bán chạy*/
+.container-run
+{
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+.container-run__img
+{
+    position: relative;
+}
+.container-run__img-none
+{
+    overflow: hidden;
+}
+.container-run__img-image
+{
+    width: 100%;
+}
+.container-run__sale
+{
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--yellow-color);
+    border-radius: 50%;
+}
+.container-run__sale-noti
+{
+    display: block;
+    line-height: 2.6;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 100;
+    color: var(--white-color);
+}
+.container-run__content-span
+{
+    font-weight: 100;
+    font-size: 0.9rem;
+    color: var(--blue-text);
+    text-align: center;
+    display: block;
+}
+.container-run__content-span:hover
+{
+    color: var(--yellow-color);
+}
+.container-run__money
+{
+    display: flex;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+    margin-top: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.container-run__money-no
+{
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-decoration: line-through;
+    color: #9d9d9d;
+    margin-right: 4px;
+}
+.container-run__money-line
+{
+    font-size: 1rem;
+    font-weight: 550;
+    color: var(--text-color);
+}
+
+
+
+
+
+
+
 /*làm footer*/
 .footer-hearder
 {
@@ -1171,6 +1386,7 @@ input[name="bottom"]{
     background-color: rgba(0, 0, 0, 0.4);
 }
 .hearder-modal-footer{
+
     position: absolute;
     left: 0;
     top: 0;
@@ -1197,6 +1413,9 @@ input[name="bottom"]{
 .hearder-footer__menu-seach{
     padding-bottom: 20px;
     padding-top: 40px;
+}
+.hearder-footer__menu-seach img{
+    width: 100%;
 }
 .hearder-footer__menu{
     padding: 3px 10px 3px 10px;
@@ -1227,7 +1446,7 @@ input[name="bottom"]{
     -webkit-line-clamp: 1;
     overflow: hidden;
 }
-.hearder-footer__menu-prodct:focus~ .hearder-footer__menu-cart-product{
+.hearder-footer__link-focus:hover .hearder-footer__menu-cart-product{
     display: block;
 }
 .hearder-modal__over-time{
@@ -1236,4 +1455,85 @@ input[name="bottom"]{
     top: 10px;
     font-size: 1.2rem;
     color: var(--white-color);
+}
+/*vali*/
+.container-vali
+{
+    cursor: pointer;
+}
+.container-vali__img
+{
+    position: relative;
+}
+.container-vali__img-none
+{
+    overflow: hidden;
+}
+.container-vali__img-image
+{
+    width: 100%;
+}
+.container-vali__sale
+{
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--yellow-color);
+    border-radius: 50%;
+}
+.container-vali__boder
+{
+    margin-top: 5px;
+    margin-left: 5px;
+    top: 0 !important;
+    left: 0 !important;
+}
+.container-vali__sale-noti
+{
+    display: block;
+    line-height: 2.6;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 100;
+    color: var(--white-color);
+}
+.container-vali__content
+{
+    padding:10px 10px 0 10px;
+    text-align: center;
+}
+.container-vali__content-span
+{
+    font-weight: 100;
+    font-size: 0.9rem;
+    color: var(--blue-text);
+}
+.container-vali__content-span:hover
+{
+    color: var(--yellow-color);
+}
+.container-vali__money
+{
+    display: flex;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+    margin-top: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.container-vali__money-no
+{
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-decoration: line-through;
+    color: #9d9d9d;
+    margin-right: 4px;
+}
+.container-vali__money-line
+{
+    font-size: 1rem;
+    font-weight: 550;
+    color: var(--text-color);
 }

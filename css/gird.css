@@ -17,8 +17,8 @@
     margin-right: -4px;
 }
 .row.no-gutters {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -4px;
+    margin-right: -4px;
 }
 
 .col {

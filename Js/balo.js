@@ -38,3 +38,20 @@ clickDelete.onclick = function(){
 stopPropaga.onclick = function(event){
     event.stopPropagation();
 }
+
+/*làm thanh trở về màn hình */
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop()){
+            $('.backtop').fadeIn();
+        }else{
+            $('.backtop').fadeOut();
+        }
+    });
+    $(".backtop").click(function(){
+        $('html,body').animate({
+            scrollTop:0
+        },50);
+    })
+});

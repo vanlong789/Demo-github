@@ -55,3 +55,15 @@ $(document).ready(function(){
         },50);
     })
 });
+
+
+
+/*làm slide*/
+let counter =1;
+setInterval(function(){
+    document.getElementById('bottom_'+counter).checked = true;
+    counter++;
+    if(counter>2){
+        counter = 1;
+    }
+},4000);

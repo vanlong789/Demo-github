@@ -89,10 +89,7 @@ html
     text-decoration: none;
 }
 /*fix button*/
-.container-form_pay{
-    text-decoration: none;
-    display: block;
-}
+
 /*giảm giá*/
 .container-small__cart-postion{
     position: absolute;

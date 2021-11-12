@@ -474,7 +474,7 @@
                                                  lập theo địa chỉ khu vực của bạn. Vui lòng liên hệ
                                                   với quản trị website để hỗ trợ vấn đề này.
                                             </p>
-                                            <button type="" class="btn btn--green container-bill__pay-submit">Đặt Hàng</button>
+                                            <button type="button" class="btn btn--green container-bill__pay-submit js-pay-submit" >Đặt Hàng</button>
                                             <p class="container-bill__pay-noti">
                                                 Thông tin cá nhân của bạn sẽ được sử dụng để
                                                  xử lý đơn hàng, tăng trải nghiệm sử dụng website
@@ -625,7 +625,24 @@
                     </div>
                 </div>
             </div>
-            
+            <div class="modal-pay js-modal-turnon">
+                <div class="modal-pay__over"></div>
+                <div class="modal-pay__form">
+                    <div class="modal-form__list">
+                        <img src="./imger/MoMo.png" alt="" class="modal-form__img-list">
+                        <p class="modal-form__list-text">Quét mã QR Code để thanh toán</p>
+                    </div>
+                    <div class="modal-form__img">
+                        <img src="./imger/qr.jpg" alt="" class="modal-form__img-last">
+                        <p class="modal-form__list-span js-modal-number"></p>
+                        <p class="modal-form__list-span js-modal-sucsess"></p>
+                    </div>
+                    <div class="modal-form__pays">
+                        <!-- <button class="modal-form__pays-submit js-modal-pays">Đồng ý thanh toán</button> -->
+                        <button class="modal-form__pays-close js-modal-close">Trở về</button>
+                    </div>
+                </div>
+            </div>
             <div class="modal js-modal">
                 <div class="modal-over"></div>
                 <div class="modal__from">
@@ -710,7 +727,6 @@
         <!-- javasprit -->
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <script src="./Js/balo.js"></script>
-        <script src="./Js/sanpham.js"></script>
         <script src="./Js/thanhtoan.js"></script>
     </body>
 </html>
